@@ -1,0 +1,29 @@
+Here's a step-by-step process to run a Streamlit application:
+
+(Certainly! Streamlit is a popular Python library for creating web applications with minimal effort)
+
+Prerequisites:
+
+1. Python Installation: Make sure you have Python installed on your system. You can download it from [python.org](https://www.python.org/downloads/).
+
+Install Streamlit:
+
+bash/command prompt: pip install streamlit
+
+2. Run Your Streamlit App:
+
+In the terminal, navigate to the directory containing your `app.py` file and run the following command:
+
+bash/command prompt: streamlit run 1_Home.py
+
+This command will start a development server and open your Streamlit app in a new browser window. You should see the title and message you defined in your `main` function.
+
+By default, Streamlit will open your app in a web browser. The URL will be displayed in the terminal. Typically, it will be something like `http://localhost:8501`.
+
+Make Changes and See Updates:
+
+As you make changes to your `app.py` file, Streamlit will automatically reload the app in the browser. You can iterate on your app and see the changes in real-time.
+
+
+That's it! 
+You can explore the Streamlit documentation for more advanced features and customization options: [Streamlit Documentation](https://docs.streamlit.io/).
